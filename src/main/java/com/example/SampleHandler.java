@@ -5,7 +5,6 @@ import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent
 import io.micronaut.context.env.Environment;
 import io.micronaut.function.aws.MicronautRequestHandler;
 import io.micronaut.http.annotation.Get;
-import jakarta.inject.Inject;
 import java.util.Collections;
 import java.util.Map;
 
